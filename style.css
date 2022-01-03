@@ -18,6 +18,11 @@
 }
 
 @media (max-width: 675px){
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
     .login-username {
         display: grid !important;
         margin-left:-90px !important;
